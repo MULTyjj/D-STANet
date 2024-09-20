@@ -4,7 +4,7 @@ D-STANet（Delay-aware Spatio-Temporal Attention Network with GAT and Conv）
 
 <img src="fig/模型.tif" alt="image-20200103164326338" style="zoom:50%;" />
 
-This is a Pytorch implementation of DSTANet and MSTCGN. The pytorch version of DSTANet released here only consists of the  recent component, since the other two components have the same network architecture. 
+This is a Pytorch implementation of DSTANet . The pytorch version of DSTANet released here only consists of the  recent component, since the other two components have the same network architecture. 
 
 # Reference
 
@@ -20,7 +20,7 @@ Step 1: The loss function and metrics can be set in the configuration file in ./
 
 # Datasets
 
-Step 1: Download datasets provided by (https://github.com/guoshnBJTU/ASTGNN/tree/main/data). 
+Step 1: Download datasets provided by (https://github.com/). 
 
 Step 2: Process dataset
 
