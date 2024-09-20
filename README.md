@@ -29,15 +29,26 @@ Step 2: Process dataset
   ```shell
   python prepareData.py --config configurations/PEMS04_DSTANet.conf
   ```
+- on PEMS07 dataset
 
+  ```shell
+  python prepareData.py --config configurations/PEMS07_DSTANet.conf
+  ```
 - on PEMS08 dataset
 
   ```shell
-
-  ```
   python prepareData.py --config configurations/PEMS08_DSTANet.conf
-  ````
+  ```
+- on HZME_INFLOW dataset
 
+  ```shell
+  python prepareData.py --config configurations/HZME_INFLOW._DSTANet.conf
+  ```
+  - on HZME_OUTFLOW dataset
+
+  ```shell
+  python prepareData.py --config configurations/HZME_OUTFLOW_DSTANet.conf
+  ```
 # Train and Test
 
 - on PEMS04 dataset
@@ -45,14 +56,26 @@ Step 2: Process dataset
   ```shell
   python train_D-STANet.py --config configurations/PEMS04_DSTANet.conf
   ```
+- on PEMS07 dataset
 
+  ```shell
+  python train_D-STANet.py --config configurations/PEMS07_DSTANet.conf
+  ```
 - on PEMS08 dataset
 
   ```shell
   python train_D-STANet.py --config configurations/PEMS08_DSTANet.conf
   ```
+- on HZME_INFLOW dataset
 
-  
+  ```shell
+  python train_D-STANet.py --config configurations/HZME_INFLOW._DSTANet.conf
+  ```
+  - on HZME_OUTFLOW dataset
+
+  ```shell
+  python train_D-STANet.py --config configurations/HZME_OUTFLOW_DSTANet.conf
+  ```
 
   
 
