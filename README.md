@@ -20,7 +20,7 @@ Step 1: The loss function and metrics can be set in the configuration file in ./
 
 # Datasets
 
-Step 1: Download datasets provided by (https://github.com/). 
+Step 1: Download datasets provided by (https://drive.google.com/drive/folders/1VTj9CFY_5-N_X3nsOagB3GhD5HLemdxQ?usp=drive_link). 
 
 Step 2: Process dataset
 
