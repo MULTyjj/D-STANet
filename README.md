@@ -44,7 +44,7 @@ Step 2: Process dataset
   ```shell
   python prepareData.py --config configurations/HZME_INFLOW._DSTANet.conf
   ```
-  - on HZME_OUTFLOW dataset
+- on HZME_OUTFLOW dataset
 
   ```shell
   python prepareData.py --config configurations/HZME_OUTFLOW_DSTANet.conf
@@ -71,7 +71,7 @@ Step 2: Process dataset
   ```shell
   python train_D-STANet.py --config configurations/HZME_INFLOW._DSTANet.conf
   ```
-  - on HZME_OUTFLOW dataset
+- on HZME_OUTFLOW dataset
 
   ```shell
   python train_D-STANet.py --config configurations/HZME_OUTFLOW_DSTANet.conf
