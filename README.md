@@ -2,7 +2,7 @@
 
 D-STANet（Delay-aware Spatio-Temporal Attention Network with GAT and Conv）
 
-<img src="fig/模型.tif" alt="image-20200103164326338" style="zoom:50%;" />
+<img src="fig/model.pdf" alt="model.pdf" style="zoom:50%;" />
 
 This is a Pytorch implementation of DSTANet . The pytorch version of DSTANet released here only consists of the  recent component, since the other two components have the same network architecture. 
 
