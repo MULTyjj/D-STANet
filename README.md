@@ -1,24 +1,32 @@
-# DSTANet
+# D-STANet
 
-D-STANet（Delay-aware Spatio-Temporal Attention Network with GAT and Conv）
+**D-STANet: Delay-aware Spatio-Temporal Attention Network with GAT and Conv**
 
-<img src="fig/model.pdf" alt="model.pdf" style="zoom:100%;" />
+![Model Architecture](fig/model.pdf)
 
-This is a Pytorch implementation of DSTANet . The pytorch version of DSTANet released here only consists of the  recent component, since the other two components have the same network architecture. 
+This repository provides the **PyTorch implementation** of **D-STANet**, a spatio-temporal prediction model that integrates **Graph Attention Networks (GAT)** and **Convolutional Networks**, while incorporating **delay-aware mechanisms** for improved traffic forecasting accuracy.
 
-# Reference
+> 🔍 Only the recent component is included here, as the other two components follow the same architecture.
+
+---
+
+## 📄 Paper
+
+Our paper has been accepted by **Knowledge-Based Systems (KBS)**.
+
+> 📌 The BibTeX citation will be added here once available.
 
 ```latex
-还没发
-```
-
-# Configuration
-
-Step 1: The loss function and metrics can be set in the configuration file in ./configurations
+% Coming soon
 
 
+# ⚙️ Configuration
 
-# Datasets
+The model settings, loss function, and metrics can be customized in the configuration files under ./configurations.
+
+
+
+# 📂 Datasets
 
 Step 1: Download datasets provided by (https://drive.google.com/drive/folders/1VTj9CFY_5-N_X3nsOagB3GhD5HLemdxQ?usp=drive_link). 
 
@@ -49,7 +57,7 @@ Step 2: Process dataset
   ```shell
   python prepareData.py --config configurations/HZME_OUTFLOW_DSTANet.conf
   ```
-# Train and Test
+# 🏃‍♂️ Train and Test
 
 - on PEMS04 dataset
 
